@@ -19,7 +19,7 @@ html {
   -webkit-appearance: none; /* for Safari */
   -moz-appearance: none;    /* for Firefox */
 
-  background-image: url('data:image/svg+xml;utf8,<svg fill="blue" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23FBAB2B" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
   background-size: 1rem;
@@ -97,7 +97,7 @@ html {
 
     /* Default Button CSS Start */
     .btn {
-        @apply relative border-0 z-[1] py-3 px-4 text-lg font-normal rounded-lg cursor-pointer no-underline bg-primary text-white before:content-[''] before:absolute before:-z-[1] after:content-[''] after:absolute after:-z-[1] hover:bg-blue-700
+        @apply relative border-0 z-[1] py-3 px-4 text-lg font-normal rounded-lg cursor-pointer no-underline bg-primary text-white before:content-[''] before:absolute before:-z-[1] after:content-[''] after:absolute after:-z-[1] hover:bg-secondary
     }
 
     /* White Button CSS Start */

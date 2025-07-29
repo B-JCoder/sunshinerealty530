@@ -154,7 +154,7 @@ const Footer = () => {
                 className="py-3 dark:bg-darkmode dark:text-gray !rounded-r-none border border-transparent dark:border-dark_border dark:focus:border-primary focus-visible:outline-none rounded-l-lg px-3 w-full sm:w-auto "
                 placeholder="Email address"
               />
-              <button className="py-2 px-5 sm:px-9 bg-primary text-base text-white rounded-r-lg hover:bg-blue-700">
+                                <button className="py-2 px-5 sm:px-9 bg-primary text-base text-white rounded-r-lg hover:bg-secondary">
                 Subscribe
               </button>
             </div>

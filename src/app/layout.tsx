@@ -14,8 +14,8 @@ import type { Metadata } from "next";
 const dmsans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Your Project Title",
-  description: "Your project description",
+  title: "Sunshine Realty - Your Dream Home Awaits",
+  description: "Find your perfect home with Sunshine Realty. Browse properties, get expert guidance, and make your real estate dreams come true.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

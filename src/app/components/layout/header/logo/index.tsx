@@ -7,7 +7,7 @@ const Logo: React.FC = () => {
     <Link href="/">
       <Image
         src="/images/logo/logo.svg"
-        alt="logo"
+        alt="Sunshine Realty"
         width={160}
         height={50}
         style={{ width: 'auto', height: 'auto' }}
@@ -16,7 +16,7 @@ const Logo: React.FC = () => {
       />
       <Image
         src="/images/logo/logo-white.svg"
-        alt="logo"
+        alt="Sunshine Realty"
         width={160}
         height={50}
         style={{ width: 'auto', height: 'auto' }}

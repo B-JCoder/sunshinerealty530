@@ -142,7 +142,7 @@ const Hero = () => {
                         <button onClick={handleSearchSell} className="flex-1 py-2 md:py-4 text-lg md:text-xl px-4 md:px-8 bg-primary text-white rounded-lg hover:bg-blue-700 transition duration-300 mb-2 md:mb-0 md:mr-2">
                           Search
                         </button>
-                        <button onClick={handleSearchSell} className="flex-1 py-2 md:py-4 text-lg md:text-xl px-4 md:px-8 bg-skyBlue/80 dark:bg-skyBlue/80 dark:hover:bg-skyBlue dark:hover:border-primary border border-transparent text-white rounded-lg hover:bg-skyBlue transition duration-300 text-nowrap">
+                        <button onClick={handleSearchSell} className="flex-1 py-2 md:py-4 text-lg md:text-xl px-4 md:px-8 bg-secondary/80 dark:bg-secondary/80 dark:hover:bg-secondary dark:hover:border-primary border border-transparent text-white rounded-lg hover:bg-secondary transition duration-300 text-nowrap">
                           Advance Search
                         </button>
                       </div>
@@ -192,10 +192,10 @@ const Hero = () => {
                     </div>
                     <div className="mt-6 flex flex-col-reverse gap-4 md:justify-between">
                       <div className="flex flex-col md:flex-row md:gap-4 w-full">
-                        <button onClick={handleSearchBuy} className="flex-1 py-2 md:py-4 text-lg md:text-xl px-4 md:px-8 bg-primary text-white rounded-lg hover:bg-blue-700 transition duration-300 mb-2 md:mb-0 md:mr-2">
+                        <button onClick={handleSearchBuy} className="flex-1 py-2 md:py-4 text-lg md:text-xl px-4 md:px-8 bg-primary text-white rounded-lg hover:bg-secondary transition duration-300 mb-2 md:mb-0 md:mr-2">
                           Search
                         </button>
-                        <button onClick={handleSearchBuy} className="flex-1 py-2 md:py-4 text-lg md:text-xl px-4 md:px-8 bg-skyBlue/80 dark:bg-skyBlue/80 dark:hover:bg-skyBlue dark:hover:border-primary border border-transparent text-white rounded-lg hover:bg-skyBlue transition duration-300 text-nowrap">
+                        <button onClick={handleSearchBuy} className="flex-1 py-2 md:py-4 text-lg md:text-xl px-4 md:px-8 bg-secondary/80 dark:bg-secondary/80 dark:hover:bg-secondary dark:hover:border-primary border border-transparent text-white rounded-lg hover:bg-secondary transition duration-300 text-nowrap">
                           Advance Search
                         </button>
                       </div>
@@ -210,35 +210,35 @@ const Hero = () => {
             <div className="flex flex-col justify-start ml-4 mt-8 mb-12 gap-3">
               <div className="flex space-x-2" data-aos="fade-left">
                 <svg
-                  className="w-6 h-6 text-blue-500"
+                  className="w-6 h-6 text-primary"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 .587l3.668 7.431L24 9.763l-6 5.847L19.336 24 12 20.019 4.664 24 6 15.61 0 9.763l8.332-1.745z" />
                 </svg>
                 <svg
-                  className="w-6 h-6 text-blue-500"
+                  className="w-6 h-6 text-primary"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 .587l3.668 7.431L24 9.763l-6 5.847L19.336 24 12 20.019 4.664 24 6 15.61 0 9.763l8.332-1.745z" />
                 </svg>
                 <svg
-                  className="w-6 h-6 text-blue-500"
+                  className="w-6 h-6 text-primary"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 .587l3.668 7.431L24 9.763l-6 5.847L19.336 24 12 20.019 4.664 24 6 15.61 0 9.763l8.332-1.745z" />
                 </svg>
                 <svg
-                  className="w-6 h-6 text-blue-500"
+                  className="w-6 h-6 text-primary"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 .587l3.668 7.431L24 9.763l-6 5.847L19.336 24 12 20.019 4.664 24 6 15.61 0 9.763l8.332-1.745z" />
                 </svg>
                 <svg
-                  className="w-6 h-6 text-blue-500"
+                  className="w-6 h-6 text-primary"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >

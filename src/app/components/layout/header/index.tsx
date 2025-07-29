@@ -98,12 +98,12 @@ const Header: React.FC = () => {
           ) : (
             <>
               <SignInButton>
-                <button className="hidden lg:block bg-transparent border border-primary text-primary px-4 py-2 rounded-lg hover:bg-blue-600 hover:text-white">
+                <button className="hidden lg:block bg-transparent border border-primary text-primary px-4 py-2 rounded-lg hover:bg-secondary hover:text-white">
                   Sign In
                 </button>
               </SignInButton>
               <SignUpButton>
-                <button className="hidden lg:block bg-primary text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                <button className="hidden lg:block bg-primary text-white px-4 py-2 rounded-lg hover:bg-secondary">
                   Sign Up
                 </button>
               </SignUpButton>
@@ -149,12 +149,12 @@ const Header: React.FC = () => {
             ) : (
               <>
                 <SignInButton>
-                  <button className="bg-transparent border border-primary text-primary px-4 py-2 rounded-lg hover:bg-blue-600 hover:text-white w-full">
+                  <button className="bg-transparent border border-primary text-primary px-4 py-2 rounded-lg hover:bg-secondary hover:text-white w-full">
                     Sign In
                   </button>
                 </SignInButton>
                 <SignUpButton>
-                  <button className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-blue-700 w-full">
+                  <button className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-secondary w-full">
                     Sign Up
                   </button>
                 </SignUpButton>
