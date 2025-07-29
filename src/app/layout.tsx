@@ -20,20 +20,22 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  session,
 }: Readonly<{
   children: React.ReactNode;
+  session: any;
 }>) {
   return (
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
         <body className={`${dmsans.className} antialiased`}>
           <AppContextProvider>
-           
+            <SessionProviderComp session={session}>
               <ThemeProvider attribute="class" enableSystem={false} defaultTheme="light">
                 <Aoscompo>
                   <Header />
 
-                  {/* Clerk Auth Buttons */}
+                  {/* 👇 Clerk Auth Buttons (Optional): Visible in header */}
                   <div className="flex justify-end items-center p-4 gap-4 h-16">
                     <SignedOut>
                       <SignInButton />
@@ -54,7 +56,7 @@ export default function RootLayout({
                 </Aoscompo>
                 <ScrollToTop />
               </ThemeProvider>
-        
+            </SessionProviderComp>
           </AppContextProvider>
         </body>
       </html>
